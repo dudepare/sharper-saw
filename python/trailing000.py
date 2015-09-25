@@ -16,7 +16,7 @@ class TrailingZeroTest(unittest.TestCase):
         pass
 
     def test_nozero(self):
-        self.assertEqual(count_endzeros(1324324),0)
+        self.assertEqual(count_endzeros(1324324), 0)
 
     def test_onezero(self):
         self.assertEqual(count_endzeros(232140), 1)
