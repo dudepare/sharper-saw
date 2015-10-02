@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int atoi(string pStr)
+int atoi(const string& pStr)
 { 
     if (pStr.empty()) return 0;
 
